@@ -28,24 +28,24 @@ const HeroSection = () => {
           </div>
           
           <div className="space-y-6">
-            <div className="space-y-4">
-              <h3 className="text-2xl font-semibold text-foreground">Saltwater Fishing</h3>
-              <p className="text-muted-foreground">
-                Love Fishing? With some of the best spots available year-round from floats to the open sea, we catch fish for snook.
+            <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-lg p-6 space-y-4">
+              <h3 className="text-2xl font-semibold text-white">Saltwater Fishing</h3>
+              <p className="text-white/80">
+                Love fishing? With some of the best spots available year-round, from coastline to the deep sea, you won't be short for choice.
               </p>
             </div>
             
-            <div className="space-y-4">
-              <h3 className="text-2xl font-semibold text-foreground">Marine Snorkelling</h3>
-              <p className="text-muted-foreground">
-                Explore and stand some of the most stunning marine waters on the planet, from Costa Rica and the Canary Islands to Hawaii and Thailand.
+            <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-lg p-6 space-y-4">
+              <h3 className="text-2xl font-semibold text-white">Marine Snorkelling</h3>
+              <p className="text-white/80">
+                Go deep sea diving in some of the most pristine waters on the planet, from Costa Rica and the Canary Islands to Hawaii and Thailand.
               </p>
             </div>
             
-            <div className="space-y-4">
-              <h3 className="text-2xl font-semibold text-foreground">All-Day Parasailing</h3>
-              <p className="text-muted-foreground">
-                Glide through the skies open from an overlanding gorgeous green bodies of ocean water to sun-swept vistas and woodlands hills.
+            <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-lg p-6 space-y-4">
+              <h3 className="text-2xl font-semibold text-white">All-Day Parasailing</h3>
+              <p className="text-white/80">
+                Glide through the wide open, fresh air overlooking gorgeous open bodies of ocean water to sun-swept vistas and woodland hills.
               </p>
             </div>
           </div>
