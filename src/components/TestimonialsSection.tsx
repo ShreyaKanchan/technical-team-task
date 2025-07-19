@@ -23,7 +23,7 @@ const TestimonialsSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-secondary">
+    <section className="py-20">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-center text-foreground mb-16">Our Testimonials</h2>
         <div className="grid md:grid-cols-3 gap-8">
