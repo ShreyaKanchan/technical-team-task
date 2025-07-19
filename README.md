@@ -1,8 +1,8 @@
-# Welcome to your Lovable project
+# Welcome to my technical team submission
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/85882968-d100-4c2d-8a04-241be2afa4d3
+Project link: [Here](https://shreya-technical-team.netlify.app)
 
 ## How can I edit this code?
 
