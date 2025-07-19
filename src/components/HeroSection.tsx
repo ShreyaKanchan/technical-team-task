@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import oceanBackground from "@/assets/dark-ocean-background.png";
+import oceanBackground from "@/assets/Frame5.jpg";
 
 const HeroSection = () => {
   return (
@@ -12,7 +12,7 @@ const HeroSection = () => {
         backgroundRepeat: 'no-repeat'
       }}
     >
-      <div className="absolute inset-0 bg-gradient-wave"></div>
+      <div className="absolute inset-0"></div>
       <div className="container mx-auto px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
