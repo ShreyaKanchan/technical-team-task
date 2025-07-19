@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import oceanBackground from "@/assets/ocean-background.jpg";
+import oceanBackground from "@/assets/dark-ocean-background.png";
 
 const HeroSection = () => {
   return (
