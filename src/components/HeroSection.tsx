@@ -31,9 +31,11 @@ const HeroSection = () => {
             </p>
 
             {/* Arrow + Button Wrapper */}
-            <div className="relative min-h-[20rem]">
+            <div className="relative min-h-[20rem] hidden sm:block">
+
               {/* Arrow */}
-              <div className="absolute left-0 top-0 w-80 h-80 border-l-2 border-b-2 border-white" />
+              <div className="absolute left-0 top-0 w-80 h-80 border-l-2 border-b-2 border-white hidden sm:block" />
+
 
               {/* Button aligned with arrow tip */}
               <div className="pl-80 pt-80">
