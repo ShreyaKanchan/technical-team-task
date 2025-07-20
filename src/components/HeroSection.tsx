@@ -3,30 +3,52 @@ import oceanBackground from "@/assets/Frame5.jpg";
 
 const HeroSection = () => {
   return (
-    <section 
+    <section
       className="min-h-screen relative flex items-center"
       style={{
         backgroundImage: `url(${oceanBackground})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="absolute inset-0"></div>
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/40" />
+
       <div className="container mx-auto px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8">
-            <h1 className="text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-              Discover the water
+          {/* LEFT SIDE */}
+          <div className="flex flex-col h-full justify-start py-24 relative">
+            {/* Heading */}
+            <h1 className="text-white text-5xl sm:text-6xl font-extrabold leading-tight mb-6">
+              Discover the <br /> water
             </h1>
-            <p className="text-xl text-muted-foreground max-w-md">
-              From pristine waters to majestic forests...we have it all
+
+            {/* Subtext */}
+            <p className="text-white text-xl sm:text-2xl font-light max-w-md mb-20">
+              From pristine waters to majestic forests...<br />
+              we have it all
             </p>
-            <Button variant="ocean" size="lg" className="mt-8">
-              Start Your Journey Today
-            </Button>
+
+            {/* Arrow + Button Wrapper */}
+            <div className="relative min-h-[20rem]">
+              {/* Arrow */}
+              <div className="absolute left-0 top-0 w-80 h-80 border-l-2 border-b-2 border-white" />
+
+              {/* Button aligned with arrow tip */}
+              <div className="pl-80 pt-80">
+                <Button
+                  variant="link"
+                  size="lg"
+                  className="text-white text-xl"
+                >
+                  Start Your Journey Today
+                </Button>
+              </div>
+            </div>
           </div>
-          
+
+          {/* RIGHT SIDE */}
           <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-lg p-6 space-y-6">
             <div className="space-y-4">
               <h3 className="text-2xl font-semibold text-white">Saltwater Fishing</h3>
@@ -34,14 +56,14 @@ const HeroSection = () => {
                 Love fishing? With some of the best spots available year-round, from coastline to the deep sea, you won't be short for choice.
               </p>
             </div>
-            
+
             <div className="space-y-4">
               <h3 className="text-2xl font-semibold text-white">Marine Snorkelling</h3>
               <p className="text-white/80">
                 Go deep sea diving in some of the most pristine waters on the planet, from Costa Rica and the Canary Islands to Hawaii and Thailand.
               </p>
             </div>
-            
+
             <div className="space-y-4">
               <h3 className="text-2xl font-semibold text-white">All-Day Parasailing</h3>
               <p className="text-white/80">
