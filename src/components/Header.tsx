@@ -20,8 +20,7 @@ const Header = () => {
             <a href="#" className="text-foreground hover:text-primary transition-colors">Home</a>
             <a href="#" className="text-foreground hover:text-primary transition-colors">Tours</a>
             <a href="#" className="text-foreground hover:text-primary transition-colors">Contact</a>
-                        <Button variant="ocean" size="sm" className="text-sm">Start a journey</Button>
-
+            <Button variant="ocean" size="sm" className="text-sm">Start a journey</Button>
           </nav>
 
           {/* Mobile Toggle */}
